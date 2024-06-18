@@ -5,10 +5,10 @@ This repo contains the challenges for Chapter 1 of Python Foundations.
 ## Getting Started
 
 #### 1. Fork this repo to your account
-![an image showing which button forks the repo](./images/fork.png)
+<img alt="an image showing which button forks the repo" src="./images/fork.png" style="max-height: 2em;" />
 
 #### 2. Clone your forked repo to your machine
-![an image showing which button to begin cloning the repo](./images/clone.png)
+<img alt="an image showing which button to clone the repo" src="./images/clone.png" style="max-height: 2em;" />
 
 #### 3. Refer to the guidance on Journey for further info
 
