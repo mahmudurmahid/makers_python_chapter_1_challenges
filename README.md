@@ -1,4 +1,4 @@
-# Chapter 1 Challenges
+# Python Foundations Chapter 1 Challenges
 
 This repo contains the challenges for Chapter 1 of Python Foundations.
 
