@@ -18,6 +18,7 @@
 # * Use the material, Python Docs and Google as much as you want
 
 # == EXERCISES ==
+import math
 
 # Purpose: return the string uppercase
 # Example:
@@ -149,8 +150,9 @@ print("return one higher:", return_one_higher(4))
 #   Returns: 5
 def round_up(float):
     # your code goes here (delete the pass below)
-    pass
+    return math.ceil(float)
 
+print("round up:", round_up(4.5))
 
 # Purpose: rounds a float down to the nearest integer
 # Example:
