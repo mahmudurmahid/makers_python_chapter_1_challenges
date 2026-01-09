@@ -180,8 +180,9 @@ print("float to string", float_to_string(1.0))
 #   Returns: 1
 def float_to_integer(float):
     # your code goes here (delete the pass below)
-    pass
+    return int(float)
 
+print("float to integer:", float_to_integer(1.0))
 
 # Purpose: checks if a float is positive
 # Example:
