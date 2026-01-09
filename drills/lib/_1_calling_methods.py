@@ -222,7 +222,8 @@ print("float is negative:", float_is_negative(-1.0))
 #   Returns: "True"
 def boolean_to_string(boolean):
     # your code goes here (delete the pass below)
-    pass
+    return str(boolean)
 
+print("boolean to string:", boolean_to_string(True))
 
 # Congrats, you're done with this file. Move on to the next one.
