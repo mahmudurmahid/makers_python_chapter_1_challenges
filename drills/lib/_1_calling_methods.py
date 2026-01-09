@@ -139,8 +139,9 @@ print("return one lower:", return_one_lower(4))
 #   Returns: 5
 def return_one_higher(integer):
     # your code goes here (delete the pass below)
-    pass
+    return integer + 1
 
+print("return one higher:", return_one_higher(4))
 
 # Purpose: rounds a float up to the nearest integer
 # Example:
