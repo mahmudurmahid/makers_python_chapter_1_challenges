@@ -1,0 +1,5 @@
+# Virtual environments
+python_chapter_challenge_venv/
+venv/
+.venv/
+
