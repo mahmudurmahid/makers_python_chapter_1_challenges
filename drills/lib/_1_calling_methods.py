@@ -27,7 +27,7 @@ def block_caps_a_string(string):
     # your code goes here (delete the pass below)
     return string
 
-print("block caps a: ", block_caps_a_string("hello world!"))
+print("block caps a:", block_caps_a_string("hello world!"))
 
 # Purpose: return the string lowercase
 # Example:
@@ -37,7 +37,7 @@ def lower_case_a_string(string):
     # your code goes here (delete the pass below)
     return string.lower()
 
-print("lower case a: ", lower_case_a_string("HELLO WORLD!"))
+print("lower case a:", lower_case_a_string("HELLO WORLD!"))
 
 # Purpose: return the length of the string
 # Example:
@@ -47,7 +47,7 @@ def length_of_a_string(string):
     # your code goes here (delete the pass below)
     return len(string)
 
-print("length of a string: ", length_of_a_string("hello"))
+print("length of a string:", length_of_a_string("hello"))
 
 # Purpose: return the string reversed
 # Example:
@@ -58,7 +58,7 @@ def reverse_a_string(string):
     reverse_s = string[-1::-1]
     return reverse_s
 
-print("reverse a string: ", reverse_a_string("hello"))
+print("reverse a string:", reverse_a_string("hello"))
 
 # Purpose: return the string with uppercase swapped to lowercase and vice versa
 # Example:
@@ -69,7 +69,7 @@ def swap_the_case_of_a_string(string):
     swap_case = string.swapcase()
     return swap_case
 
-print("swap the case of a string: ", swap_the_case_of_a_string("Hello World"))
+print("swap the case of a string:", swap_the_case_of_a_string("Hello World"))
 
 # Purpose: checks if the number given is odd
 # Example:
@@ -84,8 +84,8 @@ def is_integer_odd(integer):
     else: # even integer condition
         return True
 
-print("is integer odd - odd number: ", is_integer_odd(11))
-print("is integer odd - even number: ", is_integer_odd(24))
+print("is integer odd - odd number:", is_integer_odd(11))
+print("is integer odd - even number:", is_integer_odd(24))
 
 # Purpose: checks if the number given is even
 # Example:
