@@ -79,8 +79,13 @@ print("swap the case of a string: ", swap_the_case_of_a_string("Hello World"))
 #   Returns: False
 def is_integer_odd(integer):
     # your code goes here (delete the pass below)
-    pass
+    if integer % 2 == 0: # odd integer condition
+        return False
+    else: # even integer condition
+        return True
 
+print("is integer odd - odd number: ", is_integer_odd(11))
+print("is integer odd - even number: ", is_integer_odd(24))
 
 # Purpose: checks if the number given is even
 # Example:
