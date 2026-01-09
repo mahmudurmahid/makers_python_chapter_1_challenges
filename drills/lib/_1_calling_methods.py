@@ -119,8 +119,9 @@ print("integer to float:", integer_to_float(1))
 #   Returns: "1"
 def integer_to_string(integer):
     # your code goes here (delete the pass below)
-    pass
+    return str(integer)
 
+print("integer to string:", integer_to_string(1))
 
 # Purpose: returns the integer one lower than the one given
 # Example:
