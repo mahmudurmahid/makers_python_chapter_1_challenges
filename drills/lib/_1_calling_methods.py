@@ -170,8 +170,9 @@ print("round down:", round_down(4.5))
 #   Returns: "1.0"
 def float_to_string(float):
     # your code goes here (delete the pass below)
-    pass
+    return str(float)
 
+print("float to string", float_to_string(1.0))
 
 # Purpose: converts a float to an integer
 # Example:
