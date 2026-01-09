@@ -109,8 +109,9 @@ print("is integer even - odd number:", is_integer_even(11))
 #   Returns: 1.0
 def integer_to_float(integer):
     # your code goes here (delete the pass below)
-    pass
+    return f"{float(integer):.1f}"
 
+print("integer to float:", integer_to_float(1))
 
 # Purpose: converts an integer to a string
 # Example:
