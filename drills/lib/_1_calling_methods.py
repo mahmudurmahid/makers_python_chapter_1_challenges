@@ -192,8 +192,13 @@ print("float to integer:", float_to_integer(1.0))
 #   Returns: False
 def float_is_positive(float):
     # your code goes here (delete the pass below)
-    pass
+    if float >= 0:
+        return True
+    else:
+        return False
 
+print("float is positive:", float_is_positive(1.0))
+print("float is positive:", float_is_positive(-1.0))
 
 # Purpose: checks if a float is negative
 # Example:
@@ -203,8 +208,13 @@ def float_is_positive(float):
 #   Returns: True
 def float_is_negative(float):
     # your code goes here (delete the pass below)
-    pass
+    if float < 0:
+        return True
+    else:
+        return False
 
+print("float is negative:", float_is_negative(1.0))
+print("float is negative:", float_is_negative(-1.0))
 
 # Purpose: converts a boolean to a string
 # Example:
