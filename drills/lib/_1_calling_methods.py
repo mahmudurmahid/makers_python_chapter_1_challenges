@@ -66,8 +66,10 @@ print("reverse a string: ", reverse_a_string("hello"))
 #   Returns: "hELLO wORLD"
 def swap_the_case_of_a_string(string):
     # your code goes here (delete the pass below)
-    pass
+    swap_case = string.swapcase()
+    return swap_case
 
+print("swap the case of a string: ", swap_the_case_of_a_string("Hello World"))
 
 # Purpose: checks if the number given is odd
 # Example:
