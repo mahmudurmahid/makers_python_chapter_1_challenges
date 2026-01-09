@@ -129,8 +129,9 @@ print("integer to string:", integer_to_string(1))
 #   Returns: 3
 def return_one_lower(integer):
     # your code goes here (delete the pass below)
-    pass
+    return integer - 1
 
+print("return one lower:", return_one_lower(4))
 
 # Purpose: returns the integer one higher than the one given
 # Example:
