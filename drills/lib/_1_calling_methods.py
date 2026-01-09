@@ -95,8 +95,13 @@ print("is integer odd - even number:", is_integer_odd(24))
 #   Returns: True
 def is_integer_even(integer):
     # your code goes here (delete the pass below)
-    pass
+    if integer % 2 == 0:
+        return True
+    else:
+        return False
 
+print("is integer even - even number:", is_integer_even(12))
+print("is integer even - odd number:", is_integer_even(11))
 
 # Purpose: converts an integer to a float
 # Example:
